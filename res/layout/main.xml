@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+android:orientation="vertical"
+
+android:layout_width="fill_parent"
+
+android:layout_height="fill_parent"
+
+>
+
+<TextView
+
+android:layout_height="wrap_content"
+
+android:text="Vigenere"
+
+android:layout_width="fill_parent"
+
+android:gravity="center"/>
+
+<TextView
+    android:id="@+id/TextView01"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Plain Atau Chiper" >
+
+</TextView>
+<EditText
+
+android:id="@+id/I1"
+
+android:layout_width="fill_parent"
+
+
+android:layout_height="wrap_content">
+
+
+</EditText>
+
+<TextView
+    android:id="@+id/TextView02"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Key" >
+
+</TextView>
+
+
+<EditText
+
+
+android:id="@+id/I2"
+
+android:layout_width="fill_parent"
+
+android:layout_height="wrap_content">
+
+</EditText>
+
+<Button
+    android:id="@+id/RTambah"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Enkripsi" >
+
+</Button>
+
+<Button
+    android:id="@+id/RKurang"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Dekripsi" >
+
+</Button>
+<TextView
+
+android:text="Hasil"
+
+
+android:id="@+id/TextView03"
+
+android:layout_width="wrap_content"
+
+android:layout_height="wrap_content">
+
+</TextView>
+<TextView
+
+android:id="@+id/hasil"
+
+android:layout_width="fill_parent"
+
+android:layout_height="wrap_content"
+
+android:gravity="center"
+
+
+android:text="Hasil"
+
+/>
+</LinearLayout>
